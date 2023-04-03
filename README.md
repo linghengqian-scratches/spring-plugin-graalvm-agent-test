@@ -1,4 +1,4 @@
-# For https://github.com/oracle/graalvm-reachability-metadata/pull/154
+# For https://github.com/oracle/graalvm-reachability-metadata/pull/154 and https://github.com/spring-projects/spring-boot/issues/34841
 
 - Steps to reproduce on Ubuntu 22.04.2
 ```shell
