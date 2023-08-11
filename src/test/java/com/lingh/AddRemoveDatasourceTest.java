@@ -1,9 +1,9 @@
 package com.lingh;
 
 import com.baomidou.dynamic.datasource.DynamicRoutingDataSource;
+import com.baomidou.dynamic.datasource.creator.DataSourceProperty;
 import com.baomidou.dynamic.datasource.creator.DefaultDataSourceCreator;
-import com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DataSourceProperty;
-import com.baomidou.dynamic.datasource.spring.boot.autoconfigure.hikari.HikariCpConfig;
+import com.baomidou.dynamic.datasource.creator.hikaricp.HikariCpConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -26,9 +26,13 @@ public class AddRemoveDatasourceTest {
     void testAddAndRemoveDataSource() {
         HikariCpConfig hikariCpConfig = new HikariCpConfig();
         hikariCpConfig.setConnectionTestQuery("select 1");
-        DataSourceProperty dataSourceProperty = new DataSourceProperty()
-                .setPoolName("slave_1").setDriverClassName("org.h2.Driver").setUrl("jdbc:h2:mem:test1;MODE=MySQL")
-                .setUsername("sa").setPassword("").setHikari(hikariCpConfig);
+        DataSourceProperty dataSourceProperty = new DataSourceProperty();
+        dataSourceProperty.setHikari(hikariCpConfig);
+        dataSourceProperty.setPoolName("slave_1");
+        dataSourceProperty.setUsername("sa");
+        dataSourceProperty.setPassword("");
+        dataSourceProperty.setUrl("jdbc:h2:mem:test1;MODE=MySQL");
+        dataSourceProperty.setDriverClassName("org.h2.Driver");
         DynamicRoutingDataSource ds = (DynamicRoutingDataSource) dataSource;
         ds.addDataSource(dataSourceProperty.getPoolName(), dataSourceCreator.createDataSource(dataSourceProperty));
         assertThat(ds.getDataSources().keySet()).contains("slave_1");

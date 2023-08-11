@@ -1,18 +1,19 @@
 plugins {
     id 'java'
-    id 'org.springframework.boot' version '3.1.0'
-    id 'io.spring.dependency-management' version '1.1.0'
-    id 'org.graalvm.buildtools.native' version '0.9.22'
+    id 'org.springframework.boot' version '3.1.2'
+    id 'io.spring.dependency-management' version '1.1.2'
+    id 'org.graalvm.buildtools.native' version '0.9.24'
 }
 
 group = 'com.lingh'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+
+java {
+    sourceCompatibility = '17'
+}
 
 repositories {
     mavenCentral()
-    maven { url 'https://repo.spring.io/milestone' }
-    maven { url 'https://repo.spring.io/snapshot' }
 }
 
 
@@ -20,7 +21,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-web'
     testRuntimeOnly 'com.h2database:h2'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-    testImplementation 'com.baomidou:dynamic-datasource-spring-boot-starter:3.6.1'
+    testImplementation 'com.baomidou:dynamic-datasource-spring-boot3-starter:4.1.3'
 
 }
 
