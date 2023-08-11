@@ -17,7 +17,7 @@ cd ./spring-plugin-graalvm-agent-test/
 ./gradlew clean nativeTest
 ```
 
-- Error Log at `./gradlew -Pagent clean test` step.
+- Error Log at `./gradlew clean test` step.
 ```shell
 $ ./gradlew clean test
 
