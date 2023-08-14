@@ -1,0 +1,1505 @@
+[
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.DynamicRoutingDataSource",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"destroy","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.creator.DataSourceCreator",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.creator.DefaultDataSourceCreator"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator",
+  "methods":[{"name":"createDataSource","parameterTypes":["com.baomidou.dynamic.datasource.creator.DataSourceProperty"] }, {"name":"support","parameterTypes":["com.baomidou.dynamic.datasource.creator.DataSourceProperty"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.creator.jndi.JndiDataSourceCreator",
+  "methods":[{"name":"createDataSource","parameterTypes":["com.baomidou.dynamic.datasource.creator.DataSourceProperty"] }, {"name":"support","parameterTypes":["com.baomidou.dynamic.datasource.creator.DataSourceProperty"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.ds.AbstractDataSource",
+  "methods":[{"name":"getLogWriter","parameterTypes":[] }, {"name":"getLoginTimeout","parameterTypes":[] }, {"name":"getParentLogger","parameterTypes":[] }, {"name":"setLogWriter","parameterTypes":["java.io.PrintWriter"] }, {"name":"setLoginTimeout","parameterTypes":["int"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.ds.AbstractRoutingDataSource",
+  "methods":[{"name":"getConnection","parameterTypes":[] }, {"name":"getConnection","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"isWrapperFor","parameterTypes":["java.lang.Class"] }, {"name":"unwrap","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.event.DataSourceInitEvent",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.event.EncDataSourceInitEvent",
+  "methods":[{"name":"afterCreate","parameterTypes":["javax.sql.DataSource"] }, {"name":"beforeCreate","parameterTypes":["com.baomidou.dynamic.datasource.creator.DataSourceProperty"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.processor.DsJakartaHeaderProcessor",
+  "methods":[{"name":"doDetermineDatasource","parameterTypes":["org.aopalliance.intercept.MethodInvocation","java.lang.String"] }, {"name":"matches","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.processor.DsProcessor",
+  "methods":[{"name":"determineDatasource","parameterTypes":["org.aopalliance.intercept.MethodInvocation","java.lang.String"] }, {"name":"setNextProcessor","parameterTypes":["com.baomidou.dynamic.datasource.processor.DsProcessor"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.provider.DynamicDataSourceProvider",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider",
+  "methods":[{"name":"loadDataSources","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$0"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration",
+  "methods":[{"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$0"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$0"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration",
+  "methods":[{"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$0"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$1",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$2",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.DynamicRoutingDataSource"},
+  "name":"com.baomidou.dynamic.datasource.strategy.LoadBalanceDynamicDataSourceStrategy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.support.DataSourceClassResolver"},
+  "name":"com.baomidou.mybatisplus.core.override.MybatisMapperProxy"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.support.DataSourceClassResolver"},
+  "name":"com.baomidou.mybatisplus.core.override.PageMapperProxy"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.fasterxml.jackson.core.ObjectCodec",
+  "methods":[{"name":"getJsonFactory","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.fasterxml.jackson.core.Versioned",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.fasterxml.jackson.databind.Module",
+  "methods":[{"name":"getDependencies","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.fasterxml.jackson.databind.ObjectMapper",
+  "methods":[{"name":"createArrayNode","parameterTypes":[] }, {"name":"createObjectNode","parameterTypes":[] }, {"name":"getFactory","parameterTypes":[] }, {"name":"missingNode","parameterTypes":[] }, {"name":"nullNode","parameterTypes":[] }, {"name":"readTree","parameterTypes":["com.fasterxml.jackson.core.JsonParser"] }, {"name":"readValue","parameterTypes":["com.fasterxml.jackson.core.JsonParser","com.fasterxml.jackson.core.type.ResolvedType"] }, {"name":"readValue","parameterTypes":["com.fasterxml.jackson.core.JsonParser","com.fasterxml.jackson.core.type.TypeReference"] }, {"name":"readValue","parameterTypes":["com.fasterxml.jackson.core.JsonParser","java.lang.Class"] }, {"name":"readValues","parameterTypes":["com.fasterxml.jackson.core.JsonParser","com.fasterxml.jackson.core.type.ResolvedType"] }, {"name":"readValues","parameterTypes":["com.fasterxml.jackson.core.JsonParser","com.fasterxml.jackson.core.type.TypeReference"] }, {"name":"readValues","parameterTypes":["com.fasterxml.jackson.core.JsonParser","java.lang.Class"] }, {"name":"treeAsTokens","parameterTypes":["com.fasterxml.jackson.core.TreeNode"] }, {"name":"treeToValue","parameterTypes":["com.fasterxml.jackson.core.TreeNode","java.lang.Class"] }, {"name":"version","parameterTypes":[] }, {"name":"writeTree","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator","com.fasterxml.jackson.core.TreeNode"] }, {"name":"writeValue","parameterTypes":["com.fasterxml.jackson.core.JsonGenerator","java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.fasterxml.jackson.databind.module.SimpleModule",
+  "methods":[{"name":"addAbstractTypeMapping","parameterTypes":["java.lang.Class","java.lang.Class"] }, {"name":"addDeserializer","parameterTypes":["java.lang.Class","com.fasterxml.jackson.databind.JsonDeserializer"] }, {"name":"addKeyDeserializer","parameterTypes":["java.lang.Class","com.fasterxml.jackson.databind.KeyDeserializer"] }, {"name":"addKeySerializer","parameterTypes":["java.lang.Class","com.fasterxml.jackson.databind.JsonSerializer"] }, {"name":"addSerializer","parameterTypes":["com.fasterxml.jackson.databind.JsonSerializer"] }, {"name":"addSerializer","parameterTypes":["java.lang.Class","com.fasterxml.jackson.databind.JsonSerializer"] }, {"name":"addValueInstantiator","parameterTypes":["java.lang.Class","com.fasterxml.jackson.databind.deser.ValueInstantiator"] }, {"name":"getModuleName","parameterTypes":[] }, {"name":"getTypeId","parameterTypes":[] }, {"name":"registerSubtypes","parameterTypes":["java.util.Collection"] }, {"name":"registerSubtypes","parameterTypes":["com.fasterxml.jackson.databind.jsontype.NamedType[]"] }, {"name":"registerSubtypes","parameterTypes":["java.lang.Class[]"] }, {"name":"setAbstractTypes","parameterTypes":["com.fasterxml.jackson.databind.module.SimpleAbstractTypeResolver"] }, {"name":"setDeserializerModifier","parameterTypes":["com.fasterxml.jackson.databind.deser.BeanDeserializerModifier"] }, {"name":"setDeserializers","parameterTypes":["com.fasterxml.jackson.databind.module.SimpleDeserializers"] }, {"name":"setKeyDeserializers","parameterTypes":["com.fasterxml.jackson.databind.module.SimpleKeyDeserializers"] }, {"name":"setKeySerializers","parameterTypes":["com.fasterxml.jackson.databind.module.SimpleSerializers"] }, {"name":"setMixInAnnotation","parameterTypes":["java.lang.Class","java.lang.Class"] }, {"name":"setSerializerModifier","parameterTypes":["com.fasterxml.jackson.databind.ser.BeanSerializerModifier"] }, {"name":"setSerializers","parameterTypes":["com.fasterxml.jackson.databind.module.SimpleSerializers"] }, {"name":"setValueInstantiators","parameterTypes":["com.fasterxml.jackson.databind.module.SimpleValueInstantiators"] }, {"name":"setupModule","parameterTypes":["com.fasterxml.jackson.databind.Module$SetupContext"] }, {"name":"version","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.fasterxml.jackson.module.paramnames.ParameterNamesModule",
+  "methods":[{"name":"equals","parameterTypes":["java.lang.Object"] }, {"name":"hashCode","parameterTypes":[] }, {"name":"setupModule","parameterTypes":["com.fasterxml.jackson.databind.Module$SetupContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"com.lingh.AddRemoveDatasourceApplication",
+  "methods":[{"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"com.mchange.v2.c3p0$ComboPooledDataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"com.mchange.v2.c3p0.ComboPooledDataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"com.zaxxer.hikari$HikariDataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"com.zaxxer.hikari.HikariDataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"jakarta.servlet.Filter",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"jakarta.servlet.GenericServlet",
+  "methods":[{"name":"getInitParameter","parameterTypes":["java.lang.String"] }, {"name":"getInitParameterNames","parameterTypes":[] }, {"name":"getServletConfig","parameterTypes":[] }, {"name":"getServletContext","parameterTypes":[] }, {"name":"getServletInfo","parameterTypes":[] }, {"name":"log","parameterTypes":["java.lang.String"] }, {"name":"log","parameterTypes":["java.lang.String","java.lang.Throwable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"jakarta.servlet.MultipartConfigElement"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"jakarta.servlet.Servlet",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"jakarta.servlet.ServletConfig",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"jakarta.servlet.http.HttpServlet",
+  "methods":[{"name":"init","parameterTypes":["jakarta.servlet.ServletConfig"] }, {"name":"service","parameterTypes":["jakarta.servlet.ServletRequest","jakarta.servlet.ServletResponse"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"java.lang.Iterable",
+  "methods":[{"name":"forEach","parameterTypes":["java.util.function.Consumer"] }, {"name":"spliterator","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"java.lang.Object",
+  "methods":[{"name":"equals","parameterTypes":["java.lang.Object"] }, {"name":"getClass","parameterTypes":[] }, {"name":"hashCode","parameterTypes":[] }, {"name":"notify","parameterTypes":[] }, {"name":"notifyAll","parameterTypes":[] }, {"name":"toString","parameterTypes":[] }, {"name":"wait","parameterTypes":[] }, {"name":"wait","parameterTypes":["long"] }, {"name":"wait","parameterTypes":["long","int"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.ds.ItemDataSource"},
+  "name":"java.lang.Object",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"javax.sql.CommonDataSource",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"createShardingKeyBuilder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"javax.sql.DataSource",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"createConnectionBuilder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.ds.ItemDataSource"},
+  "name":"javax.sql.DataSource",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"oracle.ucp.jdbc$PoolDataSourceImpl"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"oracle.ucp.jdbc.PoolDataSourceImpl"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"org.apache.commons.dbcp2$BasicDataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"org.apache.commons.dbcp2.BasicDataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.support.DataSourceClassResolver"},
+  "name":"org.apache.ibatis.binding.MapperProxy"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"org.apache.tomcat.jdbc.pool$DataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"org.apache.tomcat.jdbc.pool.DataSource"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"org.h2.Driver",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.beans.factory.BeanClassLoaderAware",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.beans.factory.BeanFactoryAware",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAopConfiguration$$SpringCGLIB$$0"},
+  "name":"org.springframework.beans.factory.BeanFactoryAware",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAssistConfiguration$$SpringCGLIB$$0"},
+  "name":"org.springframework.beans.factory.BeanFactoryAware",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"org.springframework.beans.factory.BeanFactoryAware",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceCreatorAutoConfiguration$$SpringCGLIB$$0"},
+  "name":"org.springframework.beans.factory.BeanFactoryAware",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.beans.factory.BeanNameAware",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.beans.factory.DisposableBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.beans.factory.FactoryBean",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.beans.factory.support.NullBean",
+  "methods":[{"name":"equals","parameterTypes":["java.lang.Object"] }, {"name":"hashCode","parameterTypes":[] }, {"name":"toString","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.aop.AopAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$AspectJAutoProxyingConfiguration$CglibAutoProxyConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.context.LifecycleProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.http.HttpMessageConverters",
+  "methods":[{"name":"iterator","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.info.ProjectInfoProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer",
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.http.converter.json.Jackson2ObjectMapperBuilder"] }, {"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonMixinConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jackson.JacksonProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"setBeanClassLoader","parameterTypes":["java.lang.ClassLoader"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.JdbcProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.ssl.SslBundleRegistrar",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.ssl.SslProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.ssl.SslPropertiesBundleRegistrar",
+  "methods":[{"name":"registerBundles","parameterTypes":["org.springframework.boot.ssl.SslBundleRegistry"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.task.TaskExecutionProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.task.TaskSchedulingProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.transaction.PlatformTransactionManagerCustomizer",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$CglibAutoProxyConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.transaction.TransactionProperties",
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.transaction.PlatformTransactionManager"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.ServerProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.WebProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.embedded.TomcatWebServerFactoryCustomizer",
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.boot.web.server.WebServerFactory"] }, {"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.format.WebConversionService"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPath",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getPrefix","parameterTypes":[] }, {"name":"getRelativePath","parameterTypes":["java.lang.String"] }, {"name":"getServletUrlMapping","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.DispatcherServletRegistrationBean",
+  "methods":[{"name":"addUrlMappings","parameterTypes":["java.lang.String[]"] }, {"name":"getPath","parameterTypes":[] }, {"name":"setUrlMappings","parameterTypes":["java.util.Collection"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration$LocaleCharsetMappingsCustomizer",
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.boot.web.server.WebServerFactory"] }, {"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.MultipartProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer",
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.boot.web.server.WebServerFactory"] }, {"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer",
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.boot.web.server.WebServerFactory"] }, {"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration",
+  "methods":[{"name":"flashMapManager","parameterTypes":[] }, {"name":"localeResolver","parameterTypes":[] }, {"name":"mvcContentNegotiationManager","parameterTypes":[] }, {"name":"mvcConversionService","parameterTypes":[] }, {"name":"mvcValidator","parameterTypes":[] }, {"name":"requestMappingHandlerAdapter","parameterTypes":["org.springframework.web.accept.ContentNegotiationManager","org.springframework.format.support.FormattingConversionService","org.springframework.validation.Validator"] }, {"name":"setResourceLoader","parameterTypes":["org.springframework.core.io.ResourceLoader"] }, {"name":"themeResolver","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter",
+  "methods":[{"name":"addFormatters","parameterTypes":["org.springframework.format.FormatterRegistry"] }, {"name":"addResourceHandlers","parameterTypes":["org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry"] }, {"name":"configureAsyncSupport","parameterTypes":["org.springframework.web.servlet.config.annotation.AsyncSupportConfigurer"] }, {"name":"configureContentNegotiation","parameterTypes":["org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer"] }, {"name":"configureMessageConverters","parameterTypes":["java.util.List"] }, {"name":"configurePathMatch","parameterTypes":["org.springframework.web.servlet.config.annotation.PathMatchConfigurer"] }, {"name":"getMessageCodesResolver","parameterTypes":[] }, {"name":"setServletContext","parameterTypes":["jakarta.servlet.ServletContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.WelcomePageNotAcceptableHandlerMapping"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver",
+  "methods":[{"name":"getOrder","parameterTypes":[] }, {"name":"resolveErrorView","parameterTypes":["jakarta.servlet.http.HttpServletRequest","org.springframework.http.HttpStatus","java.util.Map"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$ErrorPageCustomizer",
+  "methods":[{"name":"getOrder","parameterTypes":[] }, {"name":"registerErrorPages","parameterTypes":["org.springframework.boot.web.server.ErrorPageRegistry"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$StaticView",
+  "methods":[{"name":"getContentType","parameterTypes":[] }, {"name":"render","parameterTypes":["java.util.Map","jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer",
+  "methods":[{"name":"customize","parameterTypes":["org.springframework.boot.web.server.WebServerFactory"] }, {"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.availability.ApplicationAvailability",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getLivenessState","parameterTypes":[] }, {"name":"getReadinessState","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.availability.ApplicationAvailabilityBean",
+  "methods":[{"name":"forPayload","parameterTypes":["java.util.function.Consumer"] }, {"name":"getLastChangeEvent","parameterTypes":["java.lang.Class"] }, {"name":"getState","parameterTypes":["java.lang.Class"] }, {"name":"getState","parameterTypes":["java.lang.Class","org.springframework.boot.availability.AvailabilityState"] }, {"name":"onApplicationEvent","parameterTypes":["org.springframework.context.ApplicationEvent"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.jackson.JsonComponentModule",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.jackson.JsonMixinModule"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.jackson.JsonMixinModuleEntries"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"org.springframework.boot.jdbc.DataSourceBuilder",
+  "methods":[{"name":"build","parameterTypes":[] }, {"name":"create","parameterTypes":[] }, {"name":"driverClassName","parameterTypes":["java.lang.String"] }, {"name":"password","parameterTypes":["java.lang.String"] }, {"name":"type","parameterTypes":["java.lang.Class"] }, {"name":"url","parameterTypes":["java.lang.String"] }, {"name":"username","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"initializeDatabase","parameterTypes":[] }, {"name":"setResourceLoader","parameterTypes":["org.springframework.core.io.ResourceLoader"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.ssl.DefaultSslBundleRegistry",
+  "methods":[{"name":"getBundle","parameterTypes":["java.lang.String"] }, {"name":"registerBundle","parameterTypes":["java.lang.String","org.springframework.boot.ssl.SslBundle"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.ssl.SslBundleRegistry",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.ssl.SslBundles",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.task.TaskExecutorBuilder"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.task.TaskSchedulerBuilder"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateFactory",
+  "methods":[{"name":"getObject","parameterTypes":[] }, {"name":"getObjectType","parameterTypes":[] }, {"name":"isSingleton","parameterTypes":[] }, {"name":"setApplicationContext","parameterTypes":["org.springframework.context.ApplicationContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.client.RestTemplateBuilder"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.embedded.tomcat.ConfigurableTomcatWebServerFactory",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory",
+  "methods":[{"name":"addConnectorCustomizers","parameterTypes":["org.springframework.boot.web.embedded.tomcat.TomcatConnectorCustomizer[]"] }, {"name":"addContextCustomizers","parameterTypes":["org.springframework.boot.web.embedded.tomcat.TomcatContextCustomizer[]"] }, {"name":"addEngineValves","parameterTypes":["org.apache.catalina.Valve[]"] }, {"name":"addProtocolHandlerCustomizers","parameterTypes":["org.springframework.boot.web.embedded.tomcat.TomcatProtocolHandlerCustomizer[]"] }, {"name":"getWebServer","parameterTypes":["org.springframework.boot.web.servlet.ServletContextInitializer[]"] }, {"name":"setBackgroundProcessorDelay","parameterTypes":["int"] }, {"name":"setBaseDirectory","parameterTypes":["java.io.File"] }, {"name":"setResourceLoader","parameterTypes":["org.springframework.core.io.ResourceLoader"] }, {"name":"setUriEncoding","parameterTypes":["java.nio.charset.Charset"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.server.AbstractConfigurableWebServerFactory",
+  "methods":[{"name":"addErrorPages","parameterTypes":["org.springframework.boot.web.server.ErrorPage[]"] }, {"name":"getAddress","parameterTypes":[] }, {"name":"getCompression","parameterTypes":[] }, {"name":"getErrorPages","parameterTypes":[] }, {"name":"getHttp2","parameterTypes":[] }, {"name":"getOrCreateSslStoreProvider","parameterTypes":[] }, {"name":"getPort","parameterTypes":[] }, {"name":"getServerHeader","parameterTypes":[] }, {"name":"getShutdown","parameterTypes":[] }, {"name":"getSsl","parameterTypes":[] }, {"name":"getSslStoreProvider","parameterTypes":[] }, {"name":"setAddress","parameterTypes":["java.net.InetAddress"] }, {"name":"setCompression","parameterTypes":["org.springframework.boot.web.server.Compression"] }, {"name":"setErrorPages","parameterTypes":["java.util.Set"] }, {"name":"setHttp2","parameterTypes":["org.springframework.boot.web.server.Http2"] }, {"name":"setPort","parameterTypes":["int"] }, {"name":"setServerHeader","parameterTypes":["java.lang.String"] }, {"name":"setShutdown","parameterTypes":["org.springframework.boot.web.server.Shutdown"] }, {"name":"setSsl","parameterTypes":["org.springframework.boot.web.server.Ssl"] }, {"name":"setSslBundles","parameterTypes":["org.springframework.boot.ssl.SslBundles"] }, {"name":"setSslStoreProvider","parameterTypes":["org.springframework.boot.web.server.SslStoreProvider"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.server.ConfigurableWebServerFactory",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.server.ErrorPageRegistrar",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.server.ErrorPageRegistry",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.server.WebServerFactory",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.server.WebServerFactoryCustomizer",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.DynamicRegistrationBean",
+  "methods":[{"name":"addInitParameter","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getInitParameters","parameterTypes":[] }, {"name":"isAsyncSupported","parameterTypes":[] }, {"name":"setAsyncSupported","parameterTypes":["boolean"] }, {"name":"setBeanName","parameterTypes":["java.lang.String"] }, {"name":"setIgnoreRegistrationFailure","parameterTypes":["boolean"] }, {"name":"setInitParameters","parameterTypes":["java.util.Map"] }, {"name":"setName","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.RegistrationBean",
+  "methods":[{"name":"getOrder","parameterTypes":[] }, {"name":"isEnabled","parameterTypes":[] }, {"name":"onStartup","parameterTypes":["jakarta.servlet.ServletContext"] }, {"name":"setEnabled","parameterTypes":["boolean"] }, {"name":"setOrder","parameterTypes":["int"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.ServletContextInitializer",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.ServletRegistrationBean",
+  "methods":[{"name":"getMultipartConfig","parameterTypes":[] }, {"name":"getServlet","parameterTypes":[] }, {"name":"getServletName","parameterTypes":[] }, {"name":"getUrlMappings","parameterTypes":[] }, {"name":"setLoadOnStartup","parameterTypes":["int"] }, {"name":"setMultipartConfig","parameterTypes":["jakarta.servlet.MultipartConfigElement"] }, {"name":"setServlet","parameterTypes":["jakarta.servlet.Servlet"] }, {"name":"toString","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.WebListenerRegistry",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.error.DefaultErrorAttributes",
+  "methods":[{"name":"getError","parameterTypes":["org.springframework.web.context.request.WebRequest"] }, {"name":"getErrorAttributes","parameterTypes":["org.springframework.web.context.request.WebRequest","org.springframework.boot.web.error.ErrorAttributeOptions"] }, {"name":"getOrder","parameterTypes":[] }, {"name":"resolveException","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.Object","java.lang.Exception"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.error.ErrorAttributes",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.error.ErrorController",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.filter.OrderedCharacterEncodingFilter",
+  "methods":[{"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.filter.OrderedFilter",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.filter.OrderedFormContentFilter",
+  "methods":[{"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter",
+  "methods":[{"name":"getOrder","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.server.AbstractServletWebServerFactory",
+  "methods":[{"name":"addCookieSameSiteSuppliers","parameterTypes":["org.springframework.boot.web.servlet.server.CookieSameSiteSupplier[]"] }, {"name":"addInitializers","parameterTypes":["org.springframework.boot.web.servlet.ServletContextInitializer[]"] }, {"name":"addWebListeners","parameterTypes":["java.lang.String[]"] }, {"name":"getContextPath","parameterTypes":[] }, {"name":"getCookieSameSiteSuppliers","parameterTypes":[] }, {"name":"getDisplayName","parameterTypes":[] }, {"name":"getDocumentRoot","parameterTypes":[] }, {"name":"getInitParameters","parameterTypes":[] }, {"name":"getJsp","parameterTypes":[] }, {"name":"getLocaleCharsetMappings","parameterTypes":[] }, {"name":"getMimeMappings","parameterTypes":[] }, {"name":"getSession","parameterTypes":[] }, {"name":"isRegisterDefaultServlet","parameterTypes":[] }, {"name":"setContextPath","parameterTypes":["java.lang.String"] }, {"name":"setCookieSameSiteSuppliers","parameterTypes":["java.util.List"] }, {"name":"setDisplayName","parameterTypes":["java.lang.String"] }, {"name":"setDocumentRoot","parameterTypes":["java.io.File"] }, {"name":"setInitParameters","parameterTypes":["java.util.Map"] }, {"name":"setInitializers","parameterTypes":["java.util.List"] }, {"name":"setJsp","parameterTypes":["org.springframework.boot.web.servlet.server.Jsp"] }, {"name":"setLocaleCharsetMappings","parameterTypes":["java.util.Map"] }, {"name":"setMimeMappings","parameterTypes":["org.springframework.boot.web.server.MimeMappings"] }, {"name":"setRegisterDefaultServlet","parameterTypes":["boolean"] }, {"name":"setSession","parameterTypes":["org.springframework.boot.web.servlet.server.Session"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.boot.web.servlet.server.ServletWebServerFactory",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.context.ApplicationListener",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.context.EmbeddedValueResolverAware",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.context.EnvironmentAware",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.context.Lifecycle",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.context.LifecycleProcessor",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.context.support.ApplicationObjectSupport",
+  "methods":[{"name":"getApplicationContext","parameterTypes":[] }, {"name":"setApplicationContext","parameterTypes":["org.springframework.context.ApplicationContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.context.support.DefaultLifecycleProcessor",
+  "methods":[{"name":"isRunning","parameterTypes":[] }, {"name":"onClose","parameterTypes":[] }, {"name":"onRefresh","parameterTypes":[] }, {"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }, {"name":"start","parameterTypes":[] }, {"name":"stop","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.convert.ConversionService",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.convert.converter.ConverterRegistry",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.convert.support.ConfigurableConversionService",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.convert.support.GenericConversionService",
+  "methods":[{"name":"addConverter","parameterTypes":["java.lang.Class","java.lang.Class","org.springframework.core.convert.converter.Converter"] }, {"name":"addConverter","parameterTypes":["org.springframework.core.convert.converter.Converter"] }, {"name":"addConverter","parameterTypes":["org.springframework.core.convert.converter.GenericConverter"] }, {"name":"addConverterFactory","parameterTypes":["org.springframework.core.convert.converter.ConverterFactory"] }, {"name":"canBypassConvert","parameterTypes":["org.springframework.core.convert.TypeDescriptor","org.springframework.core.convert.TypeDescriptor"] }, {"name":"canConvert","parameterTypes":["java.lang.Class","java.lang.Class"] }, {"name":"canConvert","parameterTypes":["org.springframework.core.convert.TypeDescriptor","org.springframework.core.convert.TypeDescriptor"] }, {"name":"convert","parameterTypes":["java.lang.Object","java.lang.Class"] }, {"name":"convert","parameterTypes":["java.lang.Object","org.springframework.core.convert.TypeDescriptor"] }, {"name":"convert","parameterTypes":["java.lang.Object","org.springframework.core.convert.TypeDescriptor","org.springframework.core.convert.TypeDescriptor"] }, {"name":"removeConvertible","parameterTypes":["java.lang.Class","java.lang.Class"] }, {"name":"toString","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.env.EnvironmentCapable",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.task.AsyncListenableTaskExecutor",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.task.AsyncTaskExecutor",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"submitCompletable","parameterTypes":["java.lang.Runnable"] }, {"name":"submitCompletable","parameterTypes":["java.util.concurrent.Callable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.core.task.TaskExecutor",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.format.FormatterRegistry",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.format.support.DefaultFormattingConversionService",
+  "methods":[{"name":"addDefaultFormatters","parameterTypes":["org.springframework.format.FormatterRegistry"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.format.support.FormattingConversionService",
+  "methods":[{"name":"addFormatter","parameterTypes":["org.springframework.format.Formatter"] }, {"name":"addFormatterForFieldAnnotation","parameterTypes":["org.springframework.format.AnnotationFormatterFactory"] }, {"name":"addFormatterForFieldType","parameterTypes":["java.lang.Class","org.springframework.format.Formatter"] }, {"name":"addFormatterForFieldType","parameterTypes":["java.lang.Class","org.springframework.format.Printer","org.springframework.format.Parser"] }, {"name":"addParser","parameterTypes":["org.springframework.format.Parser"] }, {"name":"addPrinter","parameterTypes":["org.springframework.format.Printer"] }, {"name":"setEmbeddedValueResolver","parameterTypes":["org.springframework.util.StringValueResolver"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.AbstractGenericHttpMessageConverter",
+  "methods":[{"name":"canWrite","parameterTypes":["java.lang.reflect.Type","java.lang.Class","org.springframework.http.MediaType"] }, {"name":"write","parameterTypes":["java.lang.Object","java.lang.reflect.Type","org.springframework.http.MediaType","org.springframework.http.HttpOutputMessage"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.AbstractHttpMessageConverter",
+  "methods":[{"name":"canRead","parameterTypes":["java.lang.Class","org.springframework.http.MediaType"] }, {"name":"canWrite","parameterTypes":["java.lang.Class","org.springframework.http.MediaType"] }, {"name":"getDefaultCharset","parameterTypes":[] }, {"name":"getSupportedMediaTypes","parameterTypes":[] }, {"name":"read","parameterTypes":["java.lang.Class","org.springframework.http.HttpInputMessage"] }, {"name":"setDefaultCharset","parameterTypes":["java.nio.charset.Charset"] }, {"name":"setSupportedMediaTypes","parameterTypes":["java.util.List"] }, {"name":"write","parameterTypes":["java.lang.Object","org.springframework.http.MediaType","org.springframework.http.HttpOutputMessage"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.GenericHttpMessageConverter",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.HttpMessageConverter",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"getSupportedMediaTypes","parameterTypes":["java.lang.Class"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.StringHttpMessageConverter"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter",
+  "methods":[{"name":"canRead","parameterTypes":["java.lang.Class","org.springframework.http.MediaType"] }, {"name":"canRead","parameterTypes":["java.lang.reflect.Type","java.lang.Class","org.springframework.http.MediaType"] }, {"name":"canWrite","parameterTypes":["java.lang.Class","org.springframework.http.MediaType"] }, {"name":"getObjectMapper","parameterTypes":[] }, {"name":"getObjectMappersForType","parameterTypes":["java.lang.Class"] }, {"name":"getSupportedMediaTypes","parameterTypes":["java.lang.Class"] }, {"name":"read","parameterTypes":["java.lang.reflect.Type","java.lang.Class","org.springframework.http.HttpInputMessage"] }, {"name":"registerObjectMappersForType","parameterTypes":["java.lang.Class","java.util.function.Consumer"] }, {"name":"setObjectMapper","parameterTypes":["com.fasterxml.jackson.databind.ObjectMapper"] }, {"name":"setPrettyPrint","parameterTypes":["boolean"] }, {"name":"setSupportedMediaTypes","parameterTypes":["java.util.List"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.json.Jackson2ObjectMapperBuilder"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.jdbc.core.JdbcOperations",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.jdbc.core.JdbcTemplate",
+  "methods":[{"name":"batchUpdate","parameterTypes":["java.lang.String","java.util.Collection","int","org.springframework.jdbc.core.ParameterizedPreparedStatementSetter"] }, {"name":"batchUpdate","parameterTypes":["java.lang.String","java.util.List"] }, {"name":"batchUpdate","parameterTypes":["java.lang.String","java.util.List","int[]"] }, {"name":"batchUpdate","parameterTypes":["java.lang.String","org.springframework.jdbc.core.BatchPreparedStatementSetter"] }, {"name":"batchUpdate","parameterTypes":["java.lang.String[]"] }, {"name":"call","parameterTypes":["org.springframework.jdbc.core.CallableStatementCreator","java.util.List"] }, {"name":"execute","parameterTypes":["java.lang.String"] }, {"name":"execute","parameterTypes":["java.lang.String","org.springframework.jdbc.core.CallableStatementCallback"] }, {"name":"execute","parameterTypes":["java.lang.String","org.springframework.jdbc.core.PreparedStatementCallback"] }, {"name":"execute","parameterTypes":["org.springframework.jdbc.core.CallableStatementCreator","org.springframework.jdbc.core.CallableStatementCallback"] }, {"name":"execute","parameterTypes":["org.springframework.jdbc.core.ConnectionCallback"] }, {"name":"execute","parameterTypes":["org.springframework.jdbc.core.PreparedStatementCreator","org.springframework.jdbc.core.PreparedStatementCallback"] }, {"name":"execute","parameterTypes":["org.springframework.jdbc.core.StatementCallback"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.PreparedStatementSetter","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.PreparedStatementSetter","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.PreparedStatementSetter","org.springframework.jdbc.core.RowMapper"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.ResultSetExtractor","java.lang.Object[]"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowCallbackHandler","java.lang.Object[]"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowMapper"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowMapper","java.lang.Object[]"] }, {"name":"query","parameterTypes":["java.lang.String","java.lang.Object[]","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["java.lang.String","java.lang.Object[]","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["java.lang.String","java.lang.Object[]","org.springframework.jdbc.core.RowMapper"] }, {"name":"query","parameterTypes":["java.lang.String","java.lang.Object[]","int[]","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["java.lang.String","java.lang.Object[]","int[]","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["java.lang.String","java.lang.Object[]","int[]","org.springframework.jdbc.core.RowMapper"] }, {"name":"query","parameterTypes":["org.springframework.jdbc.core.PreparedStatementCreator","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["org.springframework.jdbc.core.PreparedStatementCreator","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["org.springframework.jdbc.core.PreparedStatementCreator","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForList","parameterTypes":["java.lang.String"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.lang.Class"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.lang.Class","java.lang.Object[]"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.lang.Object[]"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.lang.Object[]","java.lang.Class"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.lang.Object[]","int[]"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.lang.Object[]","int[]","java.lang.Class"] }, {"name":"queryForMap","parameterTypes":["java.lang.String"] }, {"name":"queryForMap","parameterTypes":["java.lang.String","java.lang.Object[]"] }, {"name":"queryForMap","parameterTypes":["java.lang.String","java.lang.Object[]","int[]"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.lang.Class"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.lang.Class","java.lang.Object[]"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowMapper","java.lang.Object[]"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.lang.Object[]","java.lang.Class"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.lang.Object[]","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.lang.Object[]","int[]","java.lang.Class"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.lang.Object[]","int[]","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForRowSet","parameterTypes":["java.lang.String"] }, {"name":"queryForRowSet","parameterTypes":["java.lang.String","java.lang.Object[]"] }, {"name":"queryForRowSet","parameterTypes":["java.lang.String","java.lang.Object[]","int[]"] }, {"name":"queryForStream","parameterTypes":["java.lang.String","org.springframework.jdbc.core.PreparedStatementSetter","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForStream","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForStream","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowMapper","java.lang.Object[]"] }, {"name":"queryForStream","parameterTypes":["org.springframework.jdbc.core.PreparedStatementCreator","org.springframework.jdbc.core.RowMapper"] }, {"name":"update","parameterTypes":["java.lang.String"] }, {"name":"update","parameterTypes":["java.lang.String","org.springframework.jdbc.core.PreparedStatementSetter"] }, {"name":"update","parameterTypes":["java.lang.String","java.lang.Object[]"] }, {"name":"update","parameterTypes":["java.lang.String","java.lang.Object[]","int[]"] }, {"name":"update","parameterTypes":["org.springframework.jdbc.core.PreparedStatementCreator"] }, {"name":"update","parameterTypes":["org.springframework.jdbc.core.PreparedStatementCreator","org.springframework.jdbc.support.KeyHolder"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate",
+  "methods":[{"name":"batchUpdate","parameterTypes":["java.lang.String","java.util.Map[]"] }, {"name":"batchUpdate","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource[]"] }, {"name":"execute","parameterTypes":["java.lang.String","java.util.Map","org.springframework.jdbc.core.PreparedStatementCallback"] }, {"name":"execute","parameterTypes":["java.lang.String","org.springframework.jdbc.core.PreparedStatementCallback"] }, {"name":"execute","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.core.PreparedStatementCallback"] }, {"name":"getJdbcOperations","parameterTypes":[] }, {"name":"query","parameterTypes":["java.lang.String","java.util.Map","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["java.lang.String","java.util.Map","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["java.lang.String","java.util.Map","org.springframework.jdbc.core.RowMapper"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.RowMapper"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.core.ResultSetExtractor"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.core.RowCallbackHandler"] }, {"name":"query","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.util.Map"] }, {"name":"queryForList","parameterTypes":["java.lang.String","java.util.Map","java.lang.Class"] }, {"name":"queryForList","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource"] }, {"name":"queryForList","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","java.lang.Class"] }, {"name":"queryForMap","parameterTypes":["java.lang.String","java.util.Map"] }, {"name":"queryForMap","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.util.Map","java.lang.Class"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","java.util.Map","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","java.lang.Class"] }, {"name":"queryForObject","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForRowSet","parameterTypes":["java.lang.String","java.util.Map"] }, {"name":"queryForRowSet","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource"] }, {"name":"queryForStream","parameterTypes":["java.lang.String","java.util.Map","org.springframework.jdbc.core.RowMapper"] }, {"name":"queryForStream","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.core.RowMapper"] }, {"name":"update","parameterTypes":["java.lang.String","java.util.Map"] }, {"name":"update","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource"] }, {"name":"update","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.support.KeyHolder"] }, {"name":"update","parameterTypes":["java.lang.String","org.springframework.jdbc.core.namedparam.SqlParameterSource","org.springframework.jdbc.support.KeyHolder","java.lang.String[]"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.ds.ItemDataSource"},
+  "name":"org.springframework.jdbc.datasource.AbstractDataSource",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.ds.ItemDataSource"},
+  "name":"org.springframework.jdbc.datasource.AbstractDriverBasedDataSource",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.jdbc.datasource.DataSourceTransactionManager",
+  "methods":[{"name":"getDataSource","parameterTypes":[] }, {"name":"getResourceFactory","parameterTypes":[] }, {"name":"isEnforceReadOnly","parameterTypes":[] }, {"name":"setDataSource","parameterTypes":["javax.sql.DataSource"] }, {"name":"setEnforceReadOnly","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.creator.basic.BasicDataSourceCreator"},
+  "name":"org.springframework.jdbc.datasource.SimpleDriverDataSource",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.ds.ItemDataSource"},
+  "name":"org.springframework.jdbc.datasource.SimpleDriverDataSource",
+  "queryAllDeclaredMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.jdbc.support.JdbcAccessor",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"getDataSource","parameterTypes":[] }, {"name":"getExceptionTranslator","parameterTypes":[] }, {"name":"isLazyInit","parameterTypes":[] }, {"name":"setDataSource","parameterTypes":["javax.sql.DataSource"] }, {"name":"setDatabaseProductName","parameterTypes":["java.lang.String"] }, {"name":"setExceptionTranslator","parameterTypes":["org.springframework.jdbc.support.SQLExceptionTranslator"] }, {"name":"setLazyInit","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.jdbc.support.JdbcTransactionManager",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.scheduling.SchedulingTaskExecutor",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"prefersShortLivedTasks","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.scheduling.concurrent.CustomizableThreadFactory",
+  "methods":[{"name":"newThread","parameterTypes":["java.lang.Runnable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.scheduling.concurrent.ExecutorConfigurationSupport",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"destroy","parameterTypes":[] }, {"name":"initialize","parameterTypes":[] }, {"name":"setAwaitTerminationMillis","parameterTypes":["long"] }, {"name":"setAwaitTerminationSeconds","parameterTypes":["int"] }, {"name":"setBeanName","parameterTypes":["java.lang.String"] }, {"name":"setRejectedExecutionHandler","parameterTypes":["java.util.concurrent.RejectedExecutionHandler"] }, {"name":"setThreadFactory","parameterTypes":["java.util.concurrent.ThreadFactory"] }, {"name":"setThreadNamePrefix","parameterTypes":["java.lang.String"] }, {"name":"setWaitForTasksToCompleteOnShutdown","parameterTypes":["boolean"] }, {"name":"shutdown","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor",
+  "methods":[{"name":"execute","parameterTypes":["java.lang.Runnable"] }, {"name":"execute","parameterTypes":["java.lang.Runnable","long"] }, {"name":"submit","parameterTypes":["java.lang.Runnable"] }, {"name":"submit","parameterTypes":["java.util.concurrent.Callable"] }, {"name":"submitListenable","parameterTypes":["java.lang.Runnable"] }, {"name":"submitListenable","parameterTypes":["java.util.concurrent.Callable"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.PlatformTransactionManager",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.TransactionDefinition",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.TransactionManager",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.support.AbstractPlatformTransactionManager",
+  "methods":[{"name":"commit","parameterTypes":["org.springframework.transaction.TransactionStatus"] }, {"name":"getDefaultTimeout","parameterTypes":[] }, {"name":"getTransaction","parameterTypes":["org.springframework.transaction.TransactionDefinition"] }, {"name":"getTransactionSynchronization","parameterTypes":[] }, {"name":"isFailEarlyOnGlobalRollbackOnly","parameterTypes":[] }, {"name":"isGlobalRollbackOnParticipationFailure","parameterTypes":[] }, {"name":"isNestedTransactionAllowed","parameterTypes":[] }, {"name":"isRollbackOnCommitFailure","parameterTypes":[] }, {"name":"isValidateExistingTransaction","parameterTypes":[] }, {"name":"rollback","parameterTypes":["org.springframework.transaction.TransactionStatus"] }, {"name":"setDefaultTimeout","parameterTypes":["int"] }, {"name":"setFailEarlyOnGlobalRollbackOnly","parameterTypes":["boolean"] }, {"name":"setGlobalRollbackOnParticipationFailure","parameterTypes":["boolean"] }, {"name":"setNestedTransactionAllowed","parameterTypes":["boolean"] }, {"name":"setRollbackOnCommitFailure","parameterTypes":["boolean"] }, {"name":"setTransactionSynchronization","parameterTypes":["int"] }, {"name":"setTransactionSynchronizationName","parameterTypes":["java.lang.String"] }, {"name":"setValidateExistingTransaction","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.support.DefaultTransactionDefinition",
+  "methods":[{"name":"getIsolationLevel","parameterTypes":[] }, {"name":"getName","parameterTypes":[] }, {"name":"getPropagationBehavior","parameterTypes":[] }, {"name":"getTimeout","parameterTypes":[] }, {"name":"hashCode","parameterTypes":[] }, {"name":"isReadOnly","parameterTypes":[] }, {"name":"setIsolationLevel","parameterTypes":["int"] }, {"name":"setIsolationLevelName","parameterTypes":["java.lang.String"] }, {"name":"setName","parameterTypes":["java.lang.String"] }, {"name":"setPropagationBehavior","parameterTypes":["int"] }, {"name":"setPropagationBehaviorName","parameterTypes":["java.lang.String"] }, {"name":"setReadOnly","parameterTypes":["boolean"] }, {"name":"setTimeout","parameterTypes":["int"] }, {"name":"toString","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.support.ResourceTransactionManager",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.support.TransactionOperations",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"executeWithoutResult","parameterTypes":["java.util.function.Consumer"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.transaction.support.TransactionTemplate",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"equals","parameterTypes":["java.lang.Object"] }, {"name":"execute","parameterTypes":["org.springframework.transaction.support.TransactionCallback"] }, {"name":"withDefaults","parameterTypes":[] }, {"name":"withoutTransaction","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.util.AntPathMatcher",
+  "methods":[{"name":"combine","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"extractPathWithinPattern","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"extractUriTemplateVariables","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"getPatternComparator","parameterTypes":["java.lang.String"] }, {"name":"isPattern","parameterTypes":["java.lang.String"] }, {"name":"match","parameterTypes":["java.lang.String","java.lang.String"] }, {"name":"matchStart","parameterTypes":["java.lang.String","java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.util.CustomizableThreadCreator",
+  "methods":[{"name":"createThread","parameterTypes":["java.lang.Runnable"] }, {"name":"getThreadGroup","parameterTypes":[] }, {"name":"getThreadNamePrefix","parameterTypes":[] }, {"name":"getThreadPriority","parameterTypes":[] }, {"name":"isDaemon","parameterTypes":[] }, {"name":"setDaemon","parameterTypes":["boolean"] }, {"name":"setThreadGroup","parameterTypes":["java.lang.ThreadGroup"] }, {"name":"setThreadGroupName","parameterTypes":["java.lang.String"] }, {"name":"setThreadPriority","parameterTypes":["int"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.util.PathMatcher",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.validation.Validator",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.accept.ContentNegotiationManager",
+  "methods":[{"name":"getAllFileExtensions","parameterTypes":[] }, {"name":"resolveFileExtensions","parameterTypes":["org.springframework.http.MediaType"] }, {"name":"resolveMediaTypes","parameterTypes":["org.springframework.web.context.request.NativeWebRequest"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.accept.ContentNegotiationStrategy",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.accept.MediaTypeFileExtensionResolver",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.context.support.WebApplicationObjectSupport",
+  "methods":[{"name":"setServletContext","parameterTypes":["jakarta.servlet.ServletContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.filter.CharacterEncodingFilter",
+  "methods":[{"name":"getEncoding","parameterTypes":[] }, {"name":"isForceRequestEncoding","parameterTypes":[] }, {"name":"isForceResponseEncoding","parameterTypes":[] }, {"name":"setEncoding","parameterTypes":["java.lang.String"] }, {"name":"setForceEncoding","parameterTypes":["boolean"] }, {"name":"setForceRequestEncoding","parameterTypes":["boolean"] }, {"name":"setForceResponseEncoding","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.filter.FormContentFilter",
+  "methods":[{"name":"setCharset","parameterTypes":["java.nio.charset.Charset"] }, {"name":"setFormConverter","parameterTypes":["org.springframework.http.converter.FormHttpMessageConverter"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.filter.GenericFilterBean",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"destroy","parameterTypes":[] }, {"name":"getEnvironment","parameterTypes":[] }, {"name":"getFilterConfig","parameterTypes":[] }, {"name":"init","parameterTypes":["jakarta.servlet.FilterConfig"] }, {"name":"setBeanName","parameterTypes":["java.lang.String"] }, {"name":"setEnvironment","parameterTypes":["org.springframework.core.env.Environment"] }, {"name":"setServletContext","parameterTypes":["jakarta.servlet.ServletContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.filter.OncePerRequestFilter",
+  "methods":[{"name":"doFilter","parameterTypes":["jakarta.servlet.ServletRequest","jakarta.servlet.ServletResponse","jakarta.servlet.FilterChain"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.filter.RequestContextFilter",
+  "methods":[{"name":"setThreadContextInheritable","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.method.support.CompositeUriComponentsContributor",
+  "methods":[{"name":"contributeMethodArgument","parameterTypes":["org.springframework.core.MethodParameter","java.lang.Object","org.springframework.web.util.UriComponentsBuilder","java.util.Map","org.springframework.core.convert.ConversionService"] }, {"name":"supportsParameter","parameterTypes":["org.springframework.core.MethodParameter"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.method.support.UriComponentsContributor",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.multipart.MultipartResolver",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.multipart.support.StandardServletMultipartResolver",
+  "methods":[{"name":"cleanupMultipart","parameterTypes":["org.springframework.web.multipart.MultipartHttpServletRequest"] }, {"name":"isMultipart","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"resolveMultipart","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.DispatcherServlet"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.FlashMapManager",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.FrameworkServlet",
+  "methods":[{"name":"destroy","parameterTypes":[] }, {"name":"getContextAttribute","parameterTypes":[] }, {"name":"getContextClass","parameterTypes":[] }, {"name":"getContextConfigLocation","parameterTypes":[] }, {"name":"getContextId","parameterTypes":[] }, {"name":"getNamespace","parameterTypes":[] }, {"name":"getServletContextAttributeName","parameterTypes":[] }, {"name":"getWebApplicationContext","parameterTypes":[] }, {"name":"isEnableLoggingRequestDetails","parameterTypes":[] }, {"name":"onApplicationEvent","parameterTypes":["org.springframework.context.event.ContextRefreshedEvent"] }, {"name":"refresh","parameterTypes":[] }, {"name":"setApplicationContext","parameterTypes":["org.springframework.context.ApplicationContext"] }, {"name":"setContextAttribute","parameterTypes":["java.lang.String"] }, {"name":"setContextClass","parameterTypes":["java.lang.Class"] }, {"name":"setContextConfigLocation","parameterTypes":["java.lang.String"] }, {"name":"setContextId","parameterTypes":["java.lang.String"] }, {"name":"setContextInitializerClasses","parameterTypes":["java.lang.String"] }, {"name":"setContextInitializers","parameterTypes":["org.springframework.context.ApplicationContextInitializer[]"] }, {"name":"setDispatchOptionsRequest","parameterTypes":["boolean"] }, {"name":"setDispatchTraceRequest","parameterTypes":["boolean"] }, {"name":"setEnableLoggingRequestDetails","parameterTypes":["boolean"] }, {"name":"setNamespace","parameterTypes":["java.lang.String"] }, {"name":"setPublishContext","parameterTypes":["boolean"] }, {"name":"setPublishEvents","parameterTypes":["boolean"] }, {"name":"setThreadContextInheritable","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.HandlerAdapter",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.HandlerExceptionResolver",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.HandlerMapping",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.HttpServletBean",
+  "methods":[{"name":"getEnvironment","parameterTypes":[] }, {"name":"getServletName","parameterTypes":[] }, {"name":"init","parameterTypes":[] }, {"name":"setEnvironment","parameterTypes":["org.springframework.core.env.Environment"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.LocaleResolver",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.RequestToViewNameTranslator",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.ThemeResolver",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.View",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.ViewResolver",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration",
+  "methods":[{"name":"setConfigurers","parameterTypes":["java.util.List"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport",
+  "methods":[{"name":"beanNameHandlerMapping","parameterTypes":["org.springframework.format.support.FormattingConversionService","org.springframework.web.servlet.resource.ResourceUrlProvider"] }, {"name":"defaultServletHandlerMapping","parameterTypes":[] }, {"name":"getApplicationContext","parameterTypes":[] }, {"name":"getServletContext","parameterTypes":[] }, {"name":"handlerExceptionResolver","parameterTypes":["org.springframework.web.accept.ContentNegotiationManager"] }, {"name":"handlerFunctionAdapter","parameterTypes":[] }, {"name":"httpRequestHandlerAdapter","parameterTypes":[] }, {"name":"mvcHandlerMappingIntrospector","parameterTypes":[] }, {"name":"mvcPathMatcher","parameterTypes":[] }, {"name":"mvcPatternParser","parameterTypes":[] }, {"name":"mvcResourceUrlProvider","parameterTypes":[] }, {"name":"mvcUriComponentsContributor","parameterTypes":["org.springframework.format.support.FormattingConversionService","org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"] }, {"name":"mvcUrlPathHelper","parameterTypes":[] }, {"name":"mvcViewResolver","parameterTypes":["org.springframework.web.accept.ContentNegotiationManager"] }, {"name":"requestMappingHandlerMapping","parameterTypes":["org.springframework.web.accept.ContentNegotiationManager","org.springframework.format.support.FormattingConversionService","org.springframework.web.servlet.resource.ResourceUrlProvider"] }, {"name":"resourceHandlerMapping","parameterTypes":["org.springframework.web.accept.ContentNegotiationManager","org.springframework.format.support.FormattingConversionService","org.springframework.web.servlet.resource.ResourceUrlProvider"] }, {"name":"routerFunctionMapping","parameterTypes":["org.springframework.format.support.FormattingConversionService","org.springframework.web.servlet.resource.ResourceUrlProvider"] }, {"name":"setApplicationContext","parameterTypes":["org.springframework.context.ApplicationContext"] }, {"name":"setServletContext","parameterTypes":["jakarta.servlet.ServletContext"] }, {"name":"simpleControllerHandlerAdapter","parameterTypes":[] }, {"name":"viewControllerHandlerMapping","parameterTypes":["org.springframework.format.support.FormattingConversionService","org.springframework.web.servlet.resource.ResourceUrlProvider"] }, {"name":"viewNameTranslator","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport$NoOpValidator",
+  "methods":[{"name":"supports","parameterTypes":["java.lang.Class"] }, {"name":"validate","parameterTypes":["java.lang.Object","org.springframework.validation.Errors"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.config.annotation.WebMvcConfigurer",
+  "methods":[{"name":"addArgumentResolvers","parameterTypes":["java.util.List"] }, {"name":"addCorsMappings","parameterTypes":["org.springframework.web.servlet.config.annotation.CorsRegistry"] }, {"name":"addInterceptors","parameterTypes":["org.springframework.web.servlet.config.annotation.InterceptorRegistry"] }, {"name":"addReturnValueHandlers","parameterTypes":["java.util.List"] }, {"name":"addViewControllers","parameterTypes":["org.springframework.web.servlet.config.annotation.ViewControllerRegistry"] }, {"name":"configureDefaultServletHandling","parameterTypes":["org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer"] }, {"name":"configureHandlerExceptionResolvers","parameterTypes":["java.util.List"] }, {"name":"configureViewResolvers","parameterTypes":["org.springframework.web.servlet.config.annotation.ViewResolverRegistry"] }, {"name":"extendHandlerExceptionResolvers","parameterTypes":["java.util.List"] }, {"name":"extendMessageConverters","parameterTypes":["java.util.List"] }, {"name":"getValidator","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.function.support.HandlerFunctionAdapter",
+  "methods":[{"name":"getLastModified","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.Object"] }, {"name":"getOrder","parameterTypes":[] }, {"name":"handle","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.Object"] }, {"name":"supports","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.function.support.RouterFunctionMapping",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping",
+  "methods":[{"name":"initApplicationContext","parameterTypes":[] }, {"name":"setDetectHandlersInAncestorContexts","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.AbstractHandlerMapping",
+  "methods":[{"name":"getAdaptedInterceptors","parameterTypes":[] }, {"name":"getCorsConfigurationSource","parameterTypes":[] }, {"name":"getCorsProcessor","parameterTypes":[] }, {"name":"getDefaultHandler","parameterTypes":[] }, {"name":"getHandler","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"getOrder","parameterTypes":[] }, {"name":"getPathMatcher","parameterTypes":[] }, {"name":"getPatternParser","parameterTypes":[] }, {"name":"getUrlPathHelper","parameterTypes":[] }, {"name":"setAlwaysUseFullPath","parameterTypes":["boolean"] }, {"name":"setBeanName","parameterTypes":["java.lang.String"] }, {"name":"setCorsConfigurationSource","parameterTypes":["org.springframework.web.cors.CorsConfigurationSource"] }, {"name":"setCorsConfigurations","parameterTypes":["java.util.Map"] }, {"name":"setCorsProcessor","parameterTypes":["org.springframework.web.cors.CorsProcessor"] }, {"name":"setDefaultHandler","parameterTypes":["java.lang.Object"] }, {"name":"setInterceptors","parameterTypes":["java.lang.Object[]"] }, {"name":"setOrder","parameterTypes":["int"] }, {"name":"setPathMatcher","parameterTypes":["org.springframework.util.PathMatcher"] }, {"name":"setPatternParser","parameterTypes":["org.springframework.web.util.pattern.PathPatternParser"] }, {"name":"setRemoveSemicolonContent","parameterTypes":["boolean"] }, {"name":"setUrlDecode","parameterTypes":["boolean"] }, {"name":"setUrlPathHelper","parameterTypes":["org.springframework.web.util.UrlPathHelper"] }, {"name":"usesPathPatterns","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.AbstractHandlerMethodMapping",
+  "methods":[{"name":"getHandlerMethods","parameterTypes":[] }, {"name":"getHandlerMethodsForMappingName","parameterTypes":["java.lang.String"] }, {"name":"getNamingStrategy","parameterTypes":[] }, {"name":"setDetectHandlerMethodsInAncestorContexts","parameterTypes":["boolean"] }, {"name":"setHandlerMethodMappingNamingStrategy","parameterTypes":["org.springframework.web.servlet.handler.HandlerMethodMappingNamingStrategy"] }, {"name":"unregisterMapping","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.AbstractUrlHandlerMapping",
+  "methods":[{"name":"getHandlerMap","parameterTypes":[] }, {"name":"getPathPatternHandlerMap","parameterTypes":[] }, {"name":"getRootHandler","parameterTypes":[] }, {"name":"match","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"setLazyInitHandlers","parameterTypes":["boolean"] }, {"name":"setPatternParser","parameterTypes":["org.springframework.web.util.pattern.PathPatternParser"] }, {"name":"setRootHandler","parameterTypes":["java.lang.Object"] }, {"name":"setUseTrailingSlashMatch","parameterTypes":["boolean"] }, {"name":"useTrailingSlashMatch","parameterTypes":[] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.HandlerExceptionResolverComposite",
+  "methods":[{"name":"getOrder","parameterTypes":[] }, {"name":"resolveException","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.Object","java.lang.Exception"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.MatchableHandlerMapping",
+  "queryAllPublicMethods":true
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.handler.SimpleUrlHandlerMapping"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.i18n.AbstractLocaleResolver",
+  "methods":[{"name":"setDefaultLocale","parameterTypes":["java.util.Locale"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver",
+  "methods":[{"name":"resolveLocale","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"setLocale","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.util.Locale"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter",
+  "methods":[{"name":"getLastModified","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.Object"] }, {"name":"handle","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.Object"] }, {"name":"supports","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter",
+  "methods":[{"name":"getLastModified","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.Object"] }, {"name":"handle","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.Object"] }, {"name":"supports","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter",
+  "methods":[{"name":"getLastModified","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.Object"] }, {"name":"getOrder","parameterTypes":[] }, {"name":"handle","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.Object"] }, {"name":"setOrder","parameterTypes":["int"] }, {"name":"supports","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"match","parameterTypes":["jakarta.servlet.http.HttpServletRequest","java.lang.String"] }, {"name":"registerMapping","parameterTypes":["java.lang.Object","java.lang.Object","java.lang.reflect.Method"] }, {"name":"setEmbeddedValueResolver","parameterTypes":["org.springframework.util.StringValueResolver"] }, {"name":"setPatternParser","parameterTypes":["org.springframework.web.util.pattern.PathPatternParser"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.resource.ResourceUrlProvider",
+  "methods":[{"name":"forPayload","parameterTypes":["java.util.function.Consumer"] }, {"name":"onApplicationEvent","parameterTypes":["org.springframework.context.ApplicationEvent"] }, {"name":"setApplicationContext","parameterTypes":["org.springframework.context.ApplicationContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.support.AbstractFlashMapManager",
+  "methods":[{"name":"getFlashMapTimeout","parameterTypes":[] }, {"name":"getUrlPathHelper","parameterTypes":[] }, {"name":"retrieveAndUpdate","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse"] }, {"name":"saveOutputFlashMap","parameterTypes":["org.springframework.web.servlet.FlashMap","jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse"] }, {"name":"setFlashMapTimeout","parameterTypes":["int"] }, {"name":"setUrlPathHelper","parameterTypes":["org.springframework.web.util.UrlPathHelper"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.support.SessionFlashMapManager"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.support.WebContentGenerator",
+  "methods":[{"name":"getCacheControl","parameterTypes":[] }, {"name":"getCacheSeconds","parameterTypes":[] }, {"name":"getSupportedMethods","parameterTypes":[] }, {"name":"getVaryByRequestHeaders","parameterTypes":[] }, {"name":"isAlwaysMustRevalidate","parameterTypes":[] }, {"name":"isRequireSession","parameterTypes":[] }, {"name":"isUseCacheControlHeader","parameterTypes":[] }, {"name":"isUseCacheControlNoStore","parameterTypes":[] }, {"name":"isUseExpiresHeader","parameterTypes":[] }, {"name":"setAlwaysMustRevalidate","parameterTypes":["boolean"] }, {"name":"setCacheControl","parameterTypes":["org.springframework.http.CacheControl"] }, {"name":"setCacheSeconds","parameterTypes":["int"] }, {"name":"setRequireSession","parameterTypes":["boolean"] }, {"name":"setSupportedMethods","parameterTypes":["java.lang.String[]"] }, {"name":"setUseCacheControlHeader","parameterTypes":["boolean"] }, {"name":"setUseCacheControlNoStore","parameterTypes":["boolean"] }, {"name":"setUseExpiresHeader","parameterTypes":["boolean"] }, {"name":"setVaryByRequestHeaders","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.theme.AbstractThemeResolver",
+  "methods":[{"name":"getDefaultThemeName","parameterTypes":[] }, {"name":"setDefaultThemeName","parameterTypes":["java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.theme.FixedThemeResolver",
+  "methods":[{"name":"resolveThemeName","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }, {"name":"setThemeName","parameterTypes":["jakarta.servlet.http.HttpServletRequest","jakarta.servlet.http.HttpServletResponse","java.lang.String"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.view.AbstractCachingViewResolver",
+  "methods":[{"name":"clearCache","parameterTypes":[] }, {"name":"getCacheFilter","parameterTypes":[] }, {"name":"getCacheLimit","parameterTypes":[] }, {"name":"isCache","parameterTypes":[] }, {"name":"isCacheUnresolved","parameterTypes":[] }, {"name":"removeFromCache","parameterTypes":["java.lang.String","java.util.Locale"] }, {"name":"resolveViewName","parameterTypes":["java.lang.String","java.util.Locale"] }, {"name":"setCache","parameterTypes":["boolean"] }, {"name":"setCacheFilter","parameterTypes":["org.springframework.web.servlet.view.AbstractCachingViewResolver$CacheFilter"] }, {"name":"setCacheLimit","parameterTypes":["int"] }, {"name":"setCacheUnresolved","parameterTypes":["boolean"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.view.BeanNameViewResolver",
+  "methods":[{"name":"getOrder","parameterTypes":[] }, {"name":"resolveViewName","parameterTypes":["java.lang.String","java.util.Locale"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.view.ContentNegotiatingViewResolver",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"getOrder","parameterTypes":[] }, {"name":"resolveViewName","parameterTypes":["java.lang.String","java.util.Locale"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator",
+  "methods":[{"name":"getViewName","parameterTypes":["jakarta.servlet.http.HttpServletRequest"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.view.InternalResourceViewResolver"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.view.UrlBasedViewResolver",
+  "methods":[{"name":"getAttributesMap","parameterTypes":[] }, {"name":"getOrder","parameterTypes":[] }, {"name":"getRedirectHosts","parameterTypes":[] }, {"name":"setAttributes","parameterTypes":["java.util.Properties"] }, {"name":"setAttributesMap","parameterTypes":["java.util.Map"] }, {"name":"setContentType","parameterTypes":["java.lang.String"] }, {"name":"setExposeContextBeansAsAttributes","parameterTypes":["boolean"] }, {"name":"setExposePathVariables","parameterTypes":["java.lang.Boolean"] }, {"name":"setExposedContextBeanNames","parameterTypes":["java.lang.String[]"] }, {"name":"setOrder","parameterTypes":["int"] }, {"name":"setPrefix","parameterTypes":["java.lang.String"] }, {"name":"setRedirectContextRelative","parameterTypes":["boolean"] }, {"name":"setRedirectHosts","parameterTypes":["java.lang.String[]"] }, {"name":"setRedirectHttp10Compatible","parameterTypes":["boolean"] }, {"name":"setRequestContextAttribute","parameterTypes":["java.lang.String"] }, {"name":"setSuffix","parameterTypes":["java.lang.String"] }, {"name":"setViewClass","parameterTypes":["java.lang.Class"] }, {"name":"setViewNames","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.servlet.view.ViewResolverComposite",
+  "methods":[{"name":"afterPropertiesSet","parameterTypes":[] }, {"name":"getOrder","parameterTypes":[] }, {"name":"resolveViewName","parameterTypes":["java.lang.String","java.util.Locale"] }, {"name":"setApplicationContext","parameterTypes":["org.springframework.context.ApplicationContext"] }, {"name":"setServletContext","parameterTypes":["jakarta.servlet.ServletContext"] }]
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.util.UrlPathHelper"
+},
+{
+  "condition":{"typeReachable":"com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor$AnnotationMethodPoint$AnnotationMethodMatcher"},
+  "name":"org.springframework.web.util.pattern.PathPatternParser"
+}
+]
