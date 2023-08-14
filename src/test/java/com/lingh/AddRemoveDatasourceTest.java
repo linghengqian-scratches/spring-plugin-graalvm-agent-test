@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.jdbc.datasource.SimpleDriverDataSource;
 
 import javax.sql.DataSource;
 
@@ -31,6 +32,7 @@ public class AddRemoveDatasourceTest {
         dataSourceProperty.setPoolName("slave_1");
         dataSourceProperty.setUsername("sa");
         dataSourceProperty.setPassword("");
+        dataSourceProperty.setType(SimpleDriverDataSource.class);
         dataSourceProperty.setUrl("jdbc:h2:mem:test1;MODE=MySQL;INIT=RUNSCRIPT FROM 'classpath:db/add-remove-datasource.sql'");
         dataSourceProperty.setDriverClassName("org.h2.Driver");
         DynamicRoutingDataSource ds = (DynamicRoutingDataSource) dataSource;
