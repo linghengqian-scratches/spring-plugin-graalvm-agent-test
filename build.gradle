@@ -30,8 +30,7 @@ tasks.named('test') {
 
 graalvmNative {
     agent {
-//        defaultMode = "conditional"
-        defaultMode = "standard"
+        defaultMode = "conditional"
         modes {
             standard {}
             conditional {
