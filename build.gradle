@@ -30,8 +30,10 @@ tasks.named('test') {
 
 graalvmNative {
     agent {
-        defaultMode = "conditional"
+//        defaultMode = "conditional"
+        defaultMode = "standard"
         modes {
+            standard {}
             conditional {
                 userCodeFilterPath = "user-code-filter.json"
             }
