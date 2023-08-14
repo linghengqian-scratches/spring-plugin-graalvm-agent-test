@@ -11,7 +11,6 @@ sudo apt-get install build-essential libz-dev zlib1g-dev -y
 
 git clone git@github.com:linghengqian/spring-plugin-graalvm-agent-test.git
 cd ./spring-plugin-graalvm-agent-test/
-./gradlew clean test
 ./gradlew -Pagent clean test
 ./gradlew metadataCopy --task test
 ./gradlew clean nativeTest
